@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "sku": "100021",
+      "name": "Test Product1",
+      "description": "Sample Product1",
+      "imageUrl": "100021.png"
+    },
+    {
+      "sku": "100022",
+      "name": "Test Product2",
+      "description": "Sample Product2",
+      "imageUrl": "100022.png"
+    },
+    {
+      "sku": "100023",
+      "name": "Test Product3",
+      "description": "Sample Product3",
+      "imageUrl": "100023.png"
+    },
+    {
+      "sku": "100024",
+      "name": "Test Product4",
+      "description": "Sample Product4",
+      "imageUrl": "100024.png"
+    },
+    {
+      "sku": "100025",
+      "name": "Test Product5",
+      "description": "Sample Product5",
+      "imageUrl": "100025.png"
+    },
+    {
+      "sku": "100026",
+      "name": "Test Product6",
+      "description": "Sample Product6",
+      "imageUrl": "100026.png"
+    }
+  ]
+}
