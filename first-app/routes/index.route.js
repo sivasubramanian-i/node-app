@@ -23,7 +23,7 @@ router.get("/", function(req, res, next) {
   res.render("index", { title: "Express" });
 });
 
-/*router.use((req, res, next) => {
+router.use((req, res, next) => {
   console.log("req.url", req.url);
   const allowedUrls = [];
   if (
@@ -47,7 +47,7 @@ router.get("/", function(req, res, next) {
   } else {
     next();
   }
-});*/
+});
 
 router.use("/products", productRoutes);
 router.use("/employees", employeeRoutes);
