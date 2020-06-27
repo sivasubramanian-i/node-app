@@ -28,7 +28,6 @@ const ProductController = () => {
   const create = async (req, res) => {
     try {
       const reqObj = utils().getReqValues(req);
-      console.log(reqObj, "reqObj=====");
       //here you received the data and save it.
       return res.status(httpStatus.OK).json({
         status: httpStatus.OK,
